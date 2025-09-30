@@ -55,13 +55,13 @@ export default function Index() {
       <Hero />
 
       {/* Travel Packages Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gray-50 light-bg">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-black-bold mb-4">
               Travel Packages
             </h2>
-            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+            <p className="text-black-secondary text-lg max-w-2xl mx-auto">
               Discover our carefully curated collection of extraordinary adventures.
               Each journey is designed to create lasting memories and connect you
               with the world's most incredible destinations.
@@ -88,12 +88,12 @@ export default function Index() {
       <Testimonials />
 
       {/* Newsletter Section */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-white light-bg">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl font-bold text-black-bold mb-4">
             Start Your Next Adventure
           </h2>
-          <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
+          <p className="text-black-secondary text-lg mb-8 max-w-2xl mx-auto">
             Get travel inspiration, exclusive deals, and adventure tips delivered
             straight to your inbox.
           </p>

@@ -200,3 +200,81 @@ body {
 .text-contrast-low {
   color: hsl(0 0% 75%) !important;
 }
+
+/* Black text styling utilities for light backgrounds */
+.text-on-light {
+  --text-primary-black: hsl(222.2 84% 4.9%); /* Very dark gray-blue for primary text */
+  --text-secondary-black: hsl(215.4 16.3% 46.9%); /* Medium gray for secondary text */
+  --text-tertiary-black: hsl(215.4 16.3% 56.9%); /* Lighter gray for tertiary text */
+  --text-accent-black: hsl(222.2 84% 4.9%); /* Dark text for accent backgrounds */
+}
+
+/* Light background detection and automatic black text application */
+.bg-white *,
+.bg-gray-50 *,
+.bg-gray-100 *,
+.bg-secondary *,
+.bg-muted *,
+.bg-card *,
+.bg-popover *,
+[class*="bg-white"] *,
+[class*="bg-gray-50"] *,
+[class*="bg-gray-100"] * {
+  --text-color: var(--text-primary-black, hsl(222.2 84% 4.9%));
+}
+
+/* Primary black text styles */
+.text-black-primary {
+  color: hsl(222.2 84% 4.9%) !important;
+  font-weight: 500;
+}
+
+.text-black-secondary {
+  color: hsl(215.4 16.3% 46.9%) !important;
+  font-weight: 400;
+}
+
+.text-black-tertiary {
+  color: hsl(215.4 16.3% 56.9%) !important;
+  font-weight: 400;
+}
+
+/* Enhanced black text with better contrast */
+.text-black-bold {
+  color: hsl(222.2 84% 4.9%) !important;
+  font-weight: 600;
+}
+
+.text-black-semibold {
+  color: hsl(222.2 84% 4.9%) !important;
+  font-weight: 500;
+}
+
+/* Conditional styling based on parent background */
+.light-bg .auto-text-color {
+  color: hsl(222.2 84% 4.9%) !important;
+}
+
+.light-bg h1,
+.light-bg h2,
+.light-bg h3,
+.light-bg h4,
+.light-bg h5,
+.light-bg h6 {
+  color: hsl(222.2 84% 4.9%) !important;
+  font-weight: 600;
+}
+
+.light-bg p {
+  color: hsl(215.4 16.3% 46.9%) !important;
+}
+
+.light-bg span {
+  color: hsl(215.4 16.3% 46.9%) !important;
+}
+
+/* High contrast black for maximum readability */
+.text-high-contrast-black {
+  color: hsl(0 0% 0%) !important;
+  font-weight: 600;
+}

@@ -42,7 +42,7 @@ export default function Hero() {
         {/* Search Form */}
         <form
           onSubmit={handleSearch}
-          className="bg-white rounded-lg p-6 shadow-xl max-w-4xl mx-auto"
+          className="bg-white light-bg rounded-lg p-6 shadow-xl max-w-4xl mx-auto"
         >
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
             {/* Destination */}
