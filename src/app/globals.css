@@ -179,3 +179,24 @@ body {
   background-color: hsl(var(--background));
   color: hsl(var(--foreground));
 }
+
+/* Enhanced text contrast for better visibility on dark backgrounds */
+.text-on-primary,
+.bg-primary * {
+  --text-high-contrast: hsl(0 0% 95%); /* Nearly white for high contrast */
+  --text-medium-contrast: hsl(0 0% 85%); /* Light gray for secondary text */
+  --text-low-contrast: hsl(0 0% 75%); /* Medium gray for tertiary text */
+}
+
+/* Ensure minimum contrast ratios for accessibility */
+.text-contrast-high {
+  color: hsl(0 0% 95%) !important;
+}
+
+.text-contrast-medium {
+  color: hsl(0 0% 85%) !important;
+}
+
+.text-contrast-low {
+  color: hsl(0 0% 75%) !important;
+}

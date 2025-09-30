@@ -34,7 +34,7 @@ export default function Hero() {
           <br />
           <span className="text-accent">Great Adventure</span>
         </h1>
-        <p className="text-lg md:text-xl mb-8 text-white/90">
+        <p className="text-lg md:text-xl mb-8 text-gray-100">
           Discover extraordinary destinations and create unforgettable memories
           with our curated travel experiences
         </p>

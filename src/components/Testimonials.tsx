@@ -47,7 +47,7 @@ export default function Testimonials() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             What Our Travelers Say
           </h2>
-          <p className="text-white/80 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-100 text-lg max-w-2xl mx-auto">
             Real stories from real adventures. See why thousands of travelers
             trust Wayward with their dream journeys.
           </p>
@@ -70,7 +70,7 @@ export default function Testimonials() {
               </div>
 
               {/* Comment */}
-              <blockquote className="text-white/90 mb-6 text-lg leading-relaxed">
+              <blockquote className="text-gray-50 mb-6 text-lg leading-relaxed">
                 "{testimonial.comment}"
               </blockquote>
 
@@ -85,7 +85,7 @@ export default function Testimonials() {
                   <div className="font-medium text-white">
                     {testimonial.name}
                   </div>
-                  <div className="text-white/70 text-sm">
+                  <div className="text-gray-200 text-sm">
                     {testimonial.location}
                   </div>
                 </div>

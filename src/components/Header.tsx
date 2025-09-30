@@ -20,25 +20,25 @@ export default function Header() {
           <nav className="hidden md:flex items-center space-x-8">
             <Link
               href="/"
-              className="text-white/90 hover:text-white transition-colors"
+              className="text-gray-100 hover:text-white transition-colors"
             >
               Destinations
             </Link>
             <Link
               href="/packages"
-              className="text-white/90 hover:text-white transition-colors"
+              className="text-gray-100 hover:text-white transition-colors"
             >
               Packages
             </Link>
             <Link
               href="/about"
-              className="text-white/90 hover:text-white transition-colors"
+              className="text-gray-100 hover:text-white transition-colors"
             >
               About
             </Link>
             <Link
               href="/contact"
-              className="text-white/90 hover:text-white transition-colors"
+              className="text-gray-100 hover:text-white transition-colors"
             >
               Contact
             </Link>
@@ -66,28 +66,28 @@ export default function Header() {
             <nav className="flex flex-col space-y-4">
               <Link
                 href="/"
-                className="text-white/90 hover:text-white transition-colors"
+                className="text-gray-100 hover:text-white transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Destinations
               </Link>
               <Link
                 href="/packages"
-                className="text-white/90 hover:text-white transition-colors"
+                className="text-gray-100 hover:text-white transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Packages
               </Link>
               <Link
                 href="/about"
-                className="text-white/90 hover:text-white transition-colors"
+                className="text-gray-100 hover:text-white transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
               </Link>
               <Link
                 href="/contact"
-                className="text-white/90 hover:text-white transition-colors"
+                className="text-gray-100 hover:text-white transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
