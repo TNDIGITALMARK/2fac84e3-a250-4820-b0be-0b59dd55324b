@@ -16,7 +16,7 @@ All colors MUST be HSL.
 
   /* Wayward Travel Theme - Navy Blue Primary */
   --primary: 215 25% 27%; /* Dark navy for header */
-  --primary-foreground: 0 0% 100%;
+  --primary-foreground: 0 0% 98%; /* Off-white for better contrast */
 
   --secondary: 210 40% 96.1%;
   --secondary-foreground: 222.2 47.4% 11.2%;
@@ -26,7 +26,7 @@ All colors MUST be HSL.
 
   /* Orange accent color for buttons */
   --accent: 25 95% 53%; /* Vibrant orange */
-  --accent-foreground: 0 0% 100%;
+  --accent-foreground: 222.2 84% 4.9%; /* Dark text for better contrast on orange */
 
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 210 40% 98%;
@@ -43,7 +43,7 @@ All colors MUST be HSL.
   --wayward-orange: 25 95% 53%;
   --wayward-orange-light: 25 95% 63%;
   --wayward-sand: 45 29% 81%;
-  --wayward-white: 0 0% 100%;
+  --wayward-white: 0 0% 98%; /* Off-white for better contrast */
 
   --sidebar-background: 0 0% 98%;
   --sidebar-foreground: 240 5.3% 26.1%;
@@ -74,8 +74,8 @@ All colors MUST be HSL.
   --muted: 217.2 32.6% 17.5%;
   --muted-foreground: 215 20.2% 65.1%;
 
-  --accent: 217.2 32.6% 17.5%;
-  --accent-foreground: 210 40% 98%;
+  --accent: 25 95% 53%; /* Keep orange accent in dark mode for consistency */
+  --accent-foreground: 222.2 84% 4.9%; /* Dark text on orange for readability */
 
   --destructive: 0 62.8% 30.6%;
   --destructive-foreground: 210 40% 98%;
