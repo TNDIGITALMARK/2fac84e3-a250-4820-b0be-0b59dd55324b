@@ -14,8 +14,9 @@ All colors MUST be HSL.
   --popover: 0 0% 100%;
   --popover-foreground: 222.2 84% 4.9%;
 
-  --primary: 222.2 47.4% 11.2%;
-  --primary-foreground: 210 40% 98%;
+  /* Wayward Travel Theme - Navy Blue Primary */
+  --primary: 215 25% 27%; /* Dark navy for header */
+  --primary-foreground: 0 0% 100%;
 
   --secondary: 210 40% 96.1%;
   --secondary-foreground: 222.2 47.4% 11.2%;
@@ -23,17 +24,26 @@ All colors MUST be HSL.
   --muted: 210 40% 96.1%;
   --muted-foreground: 215.4 16.3% 46.9%;
 
-  --accent: 210 40% 96.1%;
-  --accent-foreground: 222.2 47.4% 11.2%;
+  /* Orange accent color for buttons */
+  --accent: 25 95% 53%; /* Vibrant orange */
+  --accent-foreground: 0 0% 100%;
 
   --destructive: 0 84.2% 60.2%;
   --destructive-foreground: 210 40% 98%;
 
   --border: 214.3 31.8% 91.4%;
   --input: 214.3 31.8% 91.4%;
-  --ring: 222.2 84% 4.9%;
+  --ring: 25 95% 53%; /* Orange ring to match accent */
 
   --radius: 0.5rem;
+
+  /* Custom Wayward colors */
+  --wayward-navy: 215 25% 27%;
+  --wayward-navy-light: 215 25% 35%;
+  --wayward-orange: 25 95% 53%;
+  --wayward-orange-light: 25 95% 63%;
+  --wayward-sand: 45 29% 81%;
+  --wayward-white: 0 0% 100%;
 
   --sidebar-background: 0 0% 98%;
   --sidebar-foreground: 240 5.3% 26.1%;
@@ -124,7 +134,15 @@ All colors MUST be HSL.
   --color-sidebar-accent-foreground: hsl(var(--sidebar-accent-foreground));
   --color-sidebar-border: hsl(var(--sidebar-border));
   --color-sidebar-ring: hsl(var(--sidebar-ring));
-  
+
+  /* Wayward Custom Colors */
+  --color-wayward-navy: hsl(var(--wayward-navy));
+  --color-wayward-navy-light: hsl(var(--wayward-navy-light));
+  --color-wayward-orange: hsl(var(--wayward-orange));
+  --color-wayward-orange-light: hsl(var(--wayward-orange-light));
+  --color-wayward-sand: hsl(var(--wayward-sand));
+  --color-wayward-white: hsl(var(--wayward-white));
+
   /* Border Radius */
   --radius-lg: var(--radius);
   --radius-md: calc(var(--radius) - 2px);
